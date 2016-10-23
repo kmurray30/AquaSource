@@ -20,6 +20,7 @@ class SelectContaminantView: UIViewController, UIPickerViewDelegate, UIPickerVie
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         proceedBtn.isHidden = true
+        
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {

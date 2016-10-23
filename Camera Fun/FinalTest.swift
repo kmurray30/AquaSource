@@ -1,53 +1,26 @@
 //
-//  StandardTests.swift
+//  FinalTest.swift
 //  Camera Fun
 //
-//  Created by Kyle Murray on 10/22/16.
+//  Created by Kyle Murray on 10/21/16.
 //  Copyright © 2016 Kyle Murray. All rights reserved.
 //
 
 import UIKit
 
-class StandardTests: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    @IBOutlet weak var standardLabel: UILabel!
-    @IBOutlet weak var testButton: UIButton!
-    @IBOutlet weak var calAddButton: UIButton!
+class FinalTest: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    var results : Double = 2.5
+    @IBOutlet weak var resultsLabel: UILabel!
+    @IBOutlet weak var finishButton: UIButton!
     @IBOutlet weak var pickedImage: UIImageView!
-    @IBOutlet weak var instruction: UILabel!
-    var nthStandard : String = "1st"
-    var nth : Int = 0
-    var numList : [String] = ["1st", "2nd", "3rd", "4th", "5th"]
+    @IBOutlet weak var instructions: UILabel!
+    //    @IBOutlet weak var isCameraAvailableLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //        textField.delegate = self
-        calAddButton.isHidden = true
-        testButton.isHidden = true
-        if nth < numList.count {
-            standardLabel.text = "\(numList[nth]) standard"
-        } else {
-            standardLabel.text = "\(nth + 1)th standard"
-        }
-//        print("Hello")
-    }
-    
-    //    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-    //        textField.resignFirstResponder()
-    //        return false
-    //    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        view.endEditing(true)
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let singleton: Singleton = Singleton.getInstance
-        singleton.spectrumList.append(pickedImage)
-        if segue.destination is StandardTests {
-            let NextVC : StandardTests = segue.destination as! StandardTests
-            NextVC.nth = nth + 1
-        }
+        finishButton.isHidden = true
+        resultsLabel.isHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -65,13 +38,18 @@ class StandardTests: UIViewController, UIImagePickerControllerDelegate, UINaviga
             self.present(imagePicker, animated: true, completion: nil)
             presentCalibrationViews()
         } else {
+            //            isCameraAvailableLabel.text = "Camera not available"
+            //            isCameraAvailableLabel.textColor = UIColor.init(red: 0.961, green: 0.957, blue: 0945, alpha: 1)
         }
     }
     
     func presentCalibrationViews() {
-        calAddButton.isHidden = false
-        testButton.isHidden = false
-        instruction.isHidden = true
+        // Do math here to get results value
+        finishButton.isHidden = false
+        resultsLabel.text = "Sample contains \(results)% oil"
+        resultsLabel.isHidden = false
+        instructions.isHidden = true
+        
     }
     
     @IBAction func photoLibraryAction(_ sender: AnyObject) {

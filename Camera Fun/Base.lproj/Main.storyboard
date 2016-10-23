@@ -146,7 +146,7 @@
                                 <state key="normal" title="Next: Calibrate standards"/>
                                 <connections>
                                     <action selector="saveCalibrationPercent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="msB-6j-Kvc"/>
-                                    <segue destination="Npj-t2-hBb" kind="show" id="DoY-ZB-sl6"/>
+                                    <segue destination="MHq-WW-9fB" kind="show" id="RmX-pG-tW8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -169,34 +169,34 @@
             <point key="canvasLocation" x="877.60000000000002" y="135.38230884557723"/>
         </scene>
         <!--Standard Tests-->
-        <scene sceneID="vqu-Ff-JRQ">
+        <scene sceneID="SCl-5h-aGU">
             <objects>
-                <viewController id="Npj-t2-hBb" customClass="StandardTests" customModule="Camera_Fun" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="MHq-WW-9fB" customClass="StandardTests" customModule="Camera_Fun" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pAJ-kb-cQY"/>
-                        <viewControllerLayoutGuide type="bottom" id="Cgq-eC-2qM"/>
+                        <viewControllerLayoutGuide type="top" id="mhp-NE-gKz"/>
+                        <viewControllerLayoutGuide type="bottom" id="UF7-vo-KBD"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zCl-ZM-xoC">
+                    <view key="view" contentMode="scaleToFill" id="r5y-bg-D38">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yff-l8-aAM">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWD-sE-7cg">
                                 <frame key="frameInset" minX="16" minY="617" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Camera"/>
                                 <connections>
-                                    <action selector="cameraButtonAction:" destination="Npj-t2-hBb" eventType="touchUpInside" id="YBR-Tp-3dU"/>
+                                    <action selector="cameraButtonAction:" destination="MHq-WW-9fB" eventType="touchUpInside" id="ggl-QC-Sm7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBU-eu-q7W">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thv-tx-q83">
                                 <frame key="frameInset" minX="267" minY="617" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Photo Library"/>
                                 <connections>
-                                    <action selector="photoLibraryAction:" destination="Npj-t2-hBb" eventType="touchUpInside" id="BXC-7h-bVb"/>
+                                    <action selector="photoLibraryAction:" destination="MHq-WW-9fB" eventType="touchUpInside" id="SY5-db-9ZM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crm-r4-FCW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72w-nT-bEF">
                                 <frame key="frameInset" minX="64" minY="34" width="226" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -209,7 +209,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGb-ag-BdS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrm-i5-bbp">
                                 <frame key="frameInset" minX="41" minY="67" width="292" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
@@ -222,45 +222,45 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OQ-q0-kIQ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egn-yx-k6X">
                                 <frame key="frameInset" minX="16" minY="20" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Main Menu"/>
                                 <connections>
-                                    <segue destination="5os-xm-qSr" kind="show" id="dqs-em-t04"/>
+                                    <segue destination="5os-xm-qSr" kind="show" id="8Bp-z6-E88"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KAn-lf-mku">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lOm-AS-fzA">
                                 <frame key="frameInset" minX="106" minY="155" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="% contaminant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CbF-a1-0CP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="% contaminant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yn-uG-y0B">
                                 <frame key="frameInset" minX="211" minY="158" width="125" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1Q-De-PB9">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8c0-TU-A5n">
                                 <frame key="frameInset" minX="106" minY="579" width="163" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Enter and perform test"/>
                                 <connections>
-                                    <segue destination="6BE-SS-ZJf" kind="show" id="8aD-dj-ddZ"/>
+                                    <segue destination="6BE-SS-ZJf" kind="show" id="XhR-fz-S2C"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ME-9y-P3y">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbS-SG-6Xd">
                                 <frame key="frameInset" minX="51" minY="541" width="272" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Enter and calibrate additional standards"/>
                                 <connections>
-                                    <segue destination="Npj-t2-hBb" kind="show" id="Lds-IE-KWl"/>
+                                    <segue destination="MHq-WW-9fB" kind="show" id="4Xn-Nu-eEB"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="en9-zQ-ZYe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cxw-lQ-Cip">
                                 <frame key="frameInset" minX="16" minY="211" width="343" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -268,16 +268,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="calAddButton" destination="6ME-9y-P3y" id="aMy-if-9ot"/>
-                        <outlet property="instruction" destination="bGb-ag-BdS" id="iBh-JZ-b0W"/>
-                        <outlet property="pickedImage" destination="en9-zQ-ZYe" id="ZVx-4t-Ubf"/>
-                        <outlet property="standardLabel" destination="crm-r4-FCW" id="n6m-c6-KI3"/>
-                        <outlet property="testButton" destination="T1Q-De-PB9" id="9PP-f5-Mb9"/>
+                        <outlet property="calAddButton" destination="NbS-SG-6Xd" id="Tf4-GT-kcx"/>
+                        <outlet property="instruction" destination="mrm-i5-bbp" id="P99-Am-v7o"/>
+                        <outlet property="pickedImage" destination="Cxw-lQ-Cip" id="J4Q-Rv-9u5"/>
+                        <outlet property="standardLabel" destination="72w-nT-bEF" id="Akt-FL-UbC"/>
+                        <outlet property="testButton" destination="8c0-TU-A5n" id="b5u-Hb-1ak"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2W5-Ge-p0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uu2-ra-4vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1616" y="933"/>
+            <point key="canvasLocation" x="2668" y="941"/>
         </scene>
         <!--Final Test-->
         <scene sceneID="KWZ-Xk-71H">
@@ -478,8 +478,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="M6m-N0-P7Q"/>
-        <segue reference="DoY-ZB-sl6"/>
+        <segue reference="8Bp-z6-E88"/>
+        <segue reference="RmX-pG-tW8"/>
         <segue reference="gwK-tI-vvG"/>
     </inferredMetricsTieBreakers>
 </document>

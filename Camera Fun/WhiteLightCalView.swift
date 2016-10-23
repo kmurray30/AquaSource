@@ -40,7 +40,7 @@ class WhiteLightCalView: UIViewController, UIImagePickerControllerDelegate, UINa
         bluePercent = (sender.value - sender.minimumValue) / (sender.maximumValue - sender.minimumValue)
         let xLocFloat : Float = bluePercent * 315
         let xLoc : Int = 29 + Int(xLocFloat)
-        print(bluePercent)
+//        print(bluePercent)
         blueLine.center = CGPoint(x: xLoc, y: 326)
         blueLine.bringSubview(toFront: blueLine)
     }
@@ -49,7 +49,7 @@ class WhiteLightCalView: UIViewController, UIImagePickerControllerDelegate, UINa
         greenPercent = (sender.value - sender.minimumValue) / (sender.maximumValue - sender.minimumValue)
         let xLocFloat : Float = greenPercent * 315
         let xLoc : Int = 29 + Int(xLocFloat)
-        print(greenPercent)
+//        print(greenPercent)
         greenLine.center = CGPoint(x: xLoc, y: 335)
         greenLine.bringSubview(toFront: greenLine)
     }
@@ -62,6 +62,9 @@ class WhiteLightCalView: UIViewController, UIImagePickerControllerDelegate, UINa
 //        var singleton: Singleton = Singleton.getInstance()
 //        singleton.bluePercent = bluePercent
 //        singleton.greenPercent = greenPercent
+        let singleton: Singleton = Singleton.getInstance
+        singleton.bluePercent = bluePercent
+        singleton.greenPercent = greenPercent
     }
 
     override func didReceiveMemoryWarning() {

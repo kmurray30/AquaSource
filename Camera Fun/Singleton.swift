@@ -9,20 +9,29 @@
 import Foundation
 
 class Singleton {
-//    var bluePercent : Float = 0
-//    var greenPercent : Float = 0
-//    var spectrumList : [Any] = []
+    var bluePercent : Float = 0
+    var greenPercent : Float = 0
+    var spectrumList : [Any] = []
+    
+//    fileprivate static var instance : Singleton? = nil
 //    
-//    internal var instance : Singleton? = nil
-//    
-//    func getInstance() -> Singleton {
+//    static func getInstance() -> Singleton {
 //        if instance == nil {
 //            instance = Singleton()
 //        }
 //        return instance!
 //    }
 //    
-//    internal init() {
+//    fileprivate init() {
 //        
 //    }
+    
+    static let getInstance : Singleton = {
+        let instance = Singleton()
+        return instance
+    }()
+    
+    init() {
+        
+    }
 }
