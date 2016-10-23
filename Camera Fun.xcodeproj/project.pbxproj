@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007194201DBC24E300B04DA7 /* StandardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0071941F1DBC24E300B04DA7 /* StandardTests.swift */; };
 		00C084A61DBB0F57002BF585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C084A51DBB0F57002BF585 /* AppDelegate.swift */; };
-		00C084A81DBB0F57002BF585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C084A71DBB0F57002BF585 /* ViewController.swift */; };
-		00C084AB1DBB0F57002BF585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C084A91DBB0F57002BF585 /* Main.storyboard */; };
+		00C084A81DBB0F57002BF585 /* WhiteLightCalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C084A71DBB0F57002BF585 /* WhiteLightCalView.swift */; };
 		00C084AD1DBB0F57002BF585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C084AC1DBB0F57002BF585 /* Assets.xcassets */; };
 		00C084B01DBB0F57002BF585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C084AE1DBB0F57002BF585 /* LaunchScreen.storyboard */; };
 		00C084BB1DBB0F57002BF585 /* Camera_FunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C084BA1DBB0F57002BF585 /* Camera_FunTests.swift */; };
 		00C084C61DBB0F57002BF585 /* Camera_FunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C084C51DBB0F57002BF585 /* Camera_FunUITests.swift */; };
+		00C084D41DBBDF05002BF585 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C084D31DBBDF05002BF585 /* HomeScreenView.swift */; };
+		00C084D61DBBE7BF002BF585 /* SelectContaminantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C084D51DBBE7BF002BF585 /* SelectContaminantView.swift */; };
+		00C085171DBBE98C002BF585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C085151DBBE98C002BF585 /* Main.storyboard */; };
+		00F5F3A71DBC66780051868C /* FinalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F5F3A61DBC66780051868C /* FinalTest.swift */; };
+		00F5F3A91DBC812B0051868C /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F5F3A81DBC812B0051868C /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0071941F1DBC24E300B04DA7 /* StandardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardTests.swift; sourceTree = "<group>"; };
 		00C084A21DBB0F57002BF585 /* Camera Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C084A51DBB0F57002BF585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00C084A71DBB0F57002BF585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00C084AA1DBB0F57002BF585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00C084A71DBB0F57002BF585 /* WhiteLightCalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteLightCalView.swift; sourceTree = "<group>"; };
 		00C084AC1DBB0F57002BF585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C084AF1DBB0F57002BF585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00C084B11DBB0F57002BF585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		00C084C11DBB0F57002BF585 /* Camera FunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camera FunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C084C51DBB0F57002BF585 /* Camera_FunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_FunUITests.swift; sourceTree = "<group>"; };
 		00C084C71DBB0F57002BF585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C084D31DBBDF05002BF585 /* HomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		00C084D51DBBE7BF002BF585 /* SelectContaminantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectContaminantView.swift; sourceTree = "<group>"; };
+		00C085161DBBE98C002BF585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F5F3A61DBC66780051868C /* FinalTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalTest.swift; sourceTree = "<group>"; };
+		00F5F3A81DBC812B0051868C /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				00C084A51DBB0F57002BF585 /* AppDelegate.swift */,
-				00C084A71DBB0F57002BF585 /* ViewController.swift */,
-				00C084A91DBB0F57002BF585 /* Main.storyboard */,
+				00C084D31DBBDF05002BF585 /* HomeScreenView.swift */,
+				00C084D51DBBE7BF002BF585 /* SelectContaminantView.swift */,
+				00C084A71DBB0F57002BF585 /* WhiteLightCalView.swift */,
+				0071941F1DBC24E300B04DA7 /* StandardTests.swift */,
+				00F5F3A61DBC66780051868C /* FinalTest.swift */,
+				00F5F3A81DBC812B0051868C /* Singleton.swift */,
+				00C085151DBBE98C002BF585 /* Main.storyboard */,
 				00C084AC1DBB0F57002BF585 /* Assets.xcassets */,
 				00C084AE1DBB0F57002BF585 /* LaunchScreen.storyboard */,
 				00C084B11DBB0F57002BF585 /* Info.plist */,
@@ -235,9 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C085171DBBE98C002BF585 /* Main.storyboard in Resources */,
 				00C084B01DBB0F57002BF585 /* LaunchScreen.storyboard in Resources */,
 				00C084AD1DBB0F57002BF585 /* Assets.xcassets in Resources */,
-				00C084AB1DBB0F57002BF585 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C084A81DBB0F57002BF585 /* ViewController.swift in Sources */,
+				00F5F3A71DBC66780051868C /* FinalTest.swift in Sources */,
+				00C084A81DBB0F57002BF585 /* WhiteLightCalView.swift in Sources */,
+				00C084D61DBBE7BF002BF585 /* SelectContaminantView.swift in Sources */,
+				00F5F3A91DBC812B0051868C /* Singleton.swift in Sources */,
 				00C084A61DBB0F57002BF585 /* AppDelegate.swift in Sources */,
+				00C084D41DBBDF05002BF585 /* HomeScreenView.swift in Sources */,
+				007194201DBC24E300B04DA7 /* StandardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +319,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		00C084A91DBB0F57002BF585 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00C084AA1DBB0F57002BF585 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00C084AE1DBB0F57002BF585 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				00C084AF1DBB0F57002BF585 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00C085151DBBE98C002BF585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C085161DBBE98C002BF585 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -514,6 +534,7 @@
 				00C084CC1DBB0F57002BF585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00C084CD1DBB0F57002BF585 /* Build configuration list for PBXNativeTarget "Camera FunTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +543,7 @@
 				00C084CF1DBB0F57002BF585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00C084D01DBB0F57002BF585 /* Build configuration list for PBXNativeTarget "Camera FunUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +552,7 @@
 				00C084D21DBB0F57002BF585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
