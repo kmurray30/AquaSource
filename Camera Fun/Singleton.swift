@@ -31,7 +31,7 @@ class Singleton {
         return instance
     }()
     
-    init() {
+    init() { 
         
     }
 }
